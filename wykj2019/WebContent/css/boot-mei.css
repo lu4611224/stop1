@@ -1,0 +1,187 @@
+body {
+	font-family: 'Microsoft YaHei', sans-serif;
+	margin: 0;
+}
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.25);
+}
+.navbar-default .navbar-brand {
+	  	font-size: 30px;
+	  	font-weight: bold;
+	  	color: #40D2B1;
+	  	height: 70px;
+	  	line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a {
+	font-size: 16px;
+	font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle{
+	margin-top: 17px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #297160;
+}
+
+.navbar-default .navbar-toggle:hover {
+    border-color: #3c763d;
+    background-color: rgb(69,210,184);
+}
+/*home*/
+#home{
+	margin-top: 70px;
+	background: url(../img/BBS/LOGO.png);
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%; 
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 90px 0;
+}
+#home h1{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+#home p {
+    font-weight: 400;
+    line-height: 40px;
+
+}
+#home img{
+	margin-top: 25px;
+	display: inline-block;
+}
+
+/*BBS*/
+#bbs{
+	margin: 80px 0;
+	text-align: center;
+}
+#bbs a{
+	color: #000000;
+	text-decoration: none;
+	
+}
+#bbs .bo:hover{
+	background-color:rgb(255, 240, 230);
+}
+#bbs img{
+	margin: 5px auto;
+}
+#bbs h3{
+	font-weight: bold;
+}
+#bbs .bo{
+ 	border: 1px solid #ecf0f1;
+ 	height: 324.7px;
+ }
+
+
+/*Hhtml5 +++++bootstrap*/
+
+#html5{
+	background-color: #808080;
+	margin: 80px 0;
+}
+#bootstrap{
+	margin: 80px 0;
+}
+#html5 img,#bootstrap img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#html5 h2,#bootstrap h2{
+	font-weight: bold;
+	padding-top: 20px;
+}
+#html5 p,#bootstrap p{
+	line-height: 40px;
+}
+.lh02{
+	color: aliceblue;
+    height: 40px;
+    width: 40px;
+    background-color: #40d2b1;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 50%;
+    /* padding-right: 20px; */
+    margin-right: 20px;
+}
+
+
+
+/*视频区域*/
+#sp{
+	margin: 80px 0;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+#sp .course{
+	margin: 20px 0;
+}
+#sp .course:hover{
+	background-color: #4b376c;
+}
+#sp img{
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+#sp h3{
+	font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+
+#contes{
+	background: url(../img/BBS/LOGO2.png);
+	background-size: cover;
+	color: #FFFFFF;
+	width: 100%;
+}
+#contes h2{
+	padding-bottom: 40px;
+}
+#contes span {
+    padding-right: 10px;
+}
+#contes p{
+	line-height: 40px;
+}
+#contes .form-control{
+    border: none;
+    height: 50px;
+    border-radius: 0;
+    margin-top: 20px;
+}
+#contes textarea.form-control{
+	height: 90px;
+}
+#contes input[type='submit']{
+	color: #FFFFFF;
+	background: #40d2b1;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+#contes input[type='submit']:hover{
+	background: #b7b0b2;;;
+}
+
+
+
+footer {
+	text-align: center;margin-top: 20px;
+}
+
